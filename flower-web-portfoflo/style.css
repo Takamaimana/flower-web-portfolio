@@ -1,0 +1,85 @@
+
+
+*{
+     background-color: rgba(245, 248, 255, 1);
+     
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+.head-font{
+    font-family: Noto Serif;
+
+}
+.body-font{
+    font-family: Inter;
+}
+
+.ligo{
+    display: flex;
+   flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+
+}
+.navbar a{
+   
+text-decoration: none;
+gap: 15px;
+padding: 16px 0;
+}
+.icon{
+    margin-right: 10px;
+}
+.navbar a:nth-child(1){
+    font-weight:900px ;
+    color: black;
+}
+
+.navbar a:nth-child(2),
+.navbar a:nth-child(3) {
+    color: gray;
+    opacity: 0.6;
+}  
+ .navbar a:nth-child(4)   {
+    color: black;
+    font-weight: 400px;
+ }
+
+.banner{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.banner-left{
+    max-width: 50%;
+}
+.b-head{
+    font-weight: 800;
+    size: 80px;
+}
+.b-para{
+    color: gray;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-right img{
+        width: 350px;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
