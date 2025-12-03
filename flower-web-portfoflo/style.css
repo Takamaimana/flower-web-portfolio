@@ -1,11 +1,12 @@
 
+    
 
 *{
      background-color: rgba(245, 248, 255, 1);
      
 }
 .container{
-    width: 900px;
+    width: 1000px;
     margin: auto;
 }
 .head-font{
@@ -78,8 +79,145 @@ padding: 16px 0;
 .banner-right img{
         width: 350px;
 }
+span{
+    margin-right: 10px;
+}
+.m-first-head{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.sectiion1-para{
+    text-align: center;
+   padding: 0 90px;
+}
+
+/* grid related style */
 
 .section2{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+   display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px 0;
+
+}
+.grid img{
+    width: 240px;
+}
+
+
+.f-details{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+line-height: 1px;
+}
+
+
+.grid-head{
+    font-weight: 500;
+    font-size: 18px;
+}
+.money{
+    font-weight: 800;
+    font-size: 18px;
+}
+.btn{
+background-color: rgba(233, 90, 8, 1);
+border: none;
+padding: 10px 78px;
+color: white;
+}
+
+.section3{
+    display: flex;
+    padding: 90px;
+    gap: 15px;
+    position: relative;
+}
+.plant-lover{
+    padding: 28px;
+}
+.absolute img{
+    width: 500px;
+    height:550px ;
+}
+
+.img2{
+position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(70%, -60%);
+
+}
+.img2 img{
+    height: 250px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.25);
+    
+  
+}
+.for-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.for-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.section5{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between
+    
+}
+.left-img{
+    font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+background: none;
+color: white;
+}
+.back-box{
+    background: none;
+}
+.section5 a{
+    background: none;
+    color: white;
+    display: flex;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+.first-img{
+  background-image:url(./assets/deal-bloom.png) ;
+
+width: 366.22px;
+height: 206px;
+border-radius: 20px;
+}
+.second-img{
+    background-image: url(./assets/deal-ana.png);
+    
+/* image 3 */
+width: 402px;
+height: 268px;
+border-radius: 20px;
+
+}
+.right-img{
+    background-image: url(./assets/deal-zabo.png);
+    /* image 6 */
+width: 753px;
+height: 423.13px;
+border-radius: 20px;
 }
